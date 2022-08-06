@@ -18,6 +18,8 @@ while not end_of_game:
     name2 = data[index2]["name"]
     follow_count1 = data[index1]['follower_count']
     follow_count2 = data[index2]['follower_count']
+    
+    
 
     print(f"Who is higher of {name1} V/s {name2}")
     guess = input("Enter your guess: ").lower()
